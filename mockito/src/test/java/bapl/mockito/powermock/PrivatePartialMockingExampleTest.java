@@ -14,7 +14,7 @@ public class PrivatePartialMockingExampleTest {
    @Test 
    public void demoPrivateMethodMocking() throws Exception { 
        final String expected = "TEST VALUE"; 
-       final String nameOfMethodToMock = "methodToMock"; 
+       final String nameOfMethodToMock = "privateToMock"; 
        final String input = "input"; 
  
        PrivatePartialMockingExample underTest = spy(new PrivatePartialMockingExample()); 
